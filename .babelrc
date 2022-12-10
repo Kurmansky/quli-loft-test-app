@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    ["module:react-native-dotenv"],
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@": "./src",
+          "$shared": "./src/shared"
+        }
+      }
+    ]
+  ]
+}

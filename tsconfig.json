@@ -1,0 +1,14 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    "types" : ["node"],
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+		"paths": {
+			"@/*": ["./src/*"],
+      "$shared": ["./src/shared"]
+		},                               
+  }
+}
